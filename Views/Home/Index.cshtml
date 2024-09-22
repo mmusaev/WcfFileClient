@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@model IEnumerable<string>
+
+<h2>File List</h2>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var file in Model)
+        {
+            <li>
+                @Html.ActionLink(file, "Download", new { fileName = file })
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No files available.</p>
+}
+
+<h2>Upload File</h2>
+<form action="/Home/Upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
+
+@if (ViewBag.Error != null)
+{
+    <p style="color: red;">@ViewBag.Error</p>
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="d2173260-1578-49ad-afee-6be0a19efb7c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61668/FileService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileService.xsd" MetadataType="Schema" ID="5a11d241-f141-4d92-b553-582c9dc4fc45" SourceId="1" SourceUrl="http://localhost:61668/FileService.svc?xsd=xsd4" />
+    <MetadataFile FileName="FileService.wsdl" MetadataType="Wsdl" ID="c4857040-c1f9-4f9b-801c-dbf26e2ddda7" SourceId="1" SourceUrl="http://localhost:61668/FileService.svc?wsdl" />
+    <MetadataFile FileName="FileService.disco" MetadataType="Disco" ID="74113173-b407-4288-a99d-c2fa3582323b" SourceId="1" SourceUrl="http://localhost:61668/FileService.svc?disco" />
+    <MetadataFile FileName="FileService1.xsd" MetadataType="Schema" ID="6afdfaa4-1644-4400-b251-7635ae4b4440" SourceId="1" SourceUrl="http://localhost:61668/FileService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FileService2.xsd" MetadataType="Schema" ID="bba03c06-5e5e-4632-9a2a-950a94bbc246" SourceId="1" SourceUrl="http://localhost:61668/FileService.svc?xsd=xsd3" />
+    <MetadataFile FileName="FileService3.xsd" MetadataType="Schema" ID="97fa6598-c106-42e5-b5d0-18f9255f61b0" SourceId="1" SourceUrl="http://localhost:61668/FileService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FileService4.xsd" MetadataType="Schema" ID="db917a82-54a4-42b2-a352-58db35cd9f83" SourceId="1" SourceUrl="http://localhost:61668/FileService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
